@@ -84,7 +84,7 @@ def get_data(file_path):
 
 
 def main():
-    # print(get_articles_url(REQUEST_URL))
+    print(get_articles_url(REQUEST_URL))
     get_data(ARTICLE_URLS_FILE)
 
 
